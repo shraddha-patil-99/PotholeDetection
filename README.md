@@ -26,14 +26,21 @@ detect.py        → Run pothole detection on PC/laptop
 detect_pi.py     → Run pothole detection on Raspberry Pi  
 train_model.py   → Train the CNN model  
 convertTflite.py → Convert trained model to TFLite   
-
-potholes/        → Dataset (normal / pothole images)  
-pothole_model_tf214.h5 → Trained Keras model  
-pothole_model.tflite   → Optimized model for Raspberry Pi  
 road.mp4, test.mp4     → Sample videos
 ```
 
 ---
+## Models and Dataset
+
+The trained models and dataset are not included in this repository due to GitHub file size limits.
+
+Download them from:
+https://drive.google.com/drive/folders/1TRrAZIa5LWgLQ6TrAMivyLb6GAZYsCFN?usp=sharing
+https://drive.google.com/drive/folders/1up8Bql_ce2CPcAn_g5rIB4InMtYaHPv3?usp=sharing
+https://drive.google.com/file/d/10YhEoVxkbLUGk0olHhs5aYRMQZCQKSyn/view?usp=sharing
+https://drive.google.com/file/d/1xtItK3YE3YSWDnMwYfvvstHt5QXU76EI/view?usp=sharing
+
+After downloading, place the model files in the project root folder.
 
 ##  Requirements
 
@@ -94,7 +101,7 @@ This uses:
 
 ## Authors
 
-- Shradha Patil  
+- Shraddha Patil  
 - Anshika Yadav  
 
 ---
